@@ -105,8 +105,9 @@
                     disable_array_add: false,
                     theme: 'bootstrap3',
                     show_errors: 'change',
-                    no_additional_properties: true,
-                    startval: initialData
+                    startval: initialData,
+                    keep_oneof_values: false,
+                    prompt_before_delete: false,
                 },
                 errors: []
             };
